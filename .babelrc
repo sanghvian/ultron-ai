@@ -1,0 +1,9 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+      ["import", { "libraryName": "antd", "style": true }],
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-transform-runtime"
+    ]
+  }
+  
